@@ -28,7 +28,7 @@ This project is the team lead's personal automation workspace. Every skill in `.
 - Git: TODO (GitLab / Bitbucket, URL). CLI: TODO (`glab` / `git` only)
 - CI: TODO (Jenkins / GitLab CI, URL). Token in env var `CI_TOKEN`
 - ServiceIT: TODO
-- Desktop apps without an API (Jabber, desktop Outlook, internal Windows apps): use the `windows-mcp` server to read their windows (Snapshot/Scrape). Clicking, typing or sending anything in them requires the user's approval.
+- Desktop apps without an API (Jabber, desktop Outlook, internal Windows apps): use the `windows-mcp` server to read their windows (Snapshot/Screenshot). Clicking, typing or sending anything in them requires the user's approval.
 
 ## Conventions
 - Jira hierarchy: Epic → Story/Task → Sub-task. Required fields: TODO

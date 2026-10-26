@@ -12,7 +12,6 @@
       "Bash(git show:*)",
       "mcp__windows-mcp__Snapshot",
       "mcp__windows-mcp__Screenshot",
-      "mcp__windows-mcp__Scrape",
       "mcp__windows-mcp__Wait",
       "mcp__windows-mcp__WaitFor",
       "mcp__windows-mcp__DisplayInventory",
@@ -41,6 +40,7 @@
       "mcp__windows-mcp__PowerShell",
       "mcp__windows-mcp__Process",
       "mcp__windows-mcp__Registry",
+      "mcp__windows-mcp__Scrape",
       "mcp__playwright__browser_evaluate",
       "mcp__playwright__browser_file_upload"
     ],
