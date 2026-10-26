@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "atlassian": {
+      "command": "uvx",
+      "args": ["mcp-atlassian"],
+      "env": {
+        "JIRA_URL": "https://jira.TODO",
+        "JIRA_PERSONAL_TOKEN": "${JIRA_PAT}",
+        "CONFLUENCE_URL": "https://confluence.TODO",
+        "CONFLUENCE_PERSONAL_TOKEN": "${CONFLUENCE_PAT}"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--browser", "msedge"]
+    }
+  }
+}

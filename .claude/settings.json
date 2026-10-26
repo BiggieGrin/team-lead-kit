@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__atlassian__jira_search",
+      "mcp__atlassian__jira_get_issue",
+      "mcp__atlassian__confluence_search",
+      "mcp__atlassian__confluence_get_page",
+      "Bash(git log:*)",
+      "Bash(git blame:*)",
+      "Bash(git diff:*)",
+      "Bash(git status:*)",
+      "Bash(git show:*)"
+    ],
+    "ask": [
+      "mcp__atlassian__jira_create_issue",
+      "mcp__atlassian__jira_update_issue",
+      "mcp__atlassian__jira_add_comment",
+      "mcp__atlassian__jira_transition_issue",
+      "mcp__atlassian__confluence_create_page",
+      "mcp__atlassian__confluence_update_page",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)"
+    ]
+  }
+}

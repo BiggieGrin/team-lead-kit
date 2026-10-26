@@ -1,0 +1,4 @@
+# Local-only files — never commit
+.claude/settings.local.json
+ui-tests/results/
+.env
