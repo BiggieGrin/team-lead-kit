@@ -9,7 +9,14 @@
       "Bash(git blame:*)",
       "Bash(git diff:*)",
       "Bash(git status:*)",
-      "Bash(git show:*)"
+      "Bash(git show:*)",
+      "mcp__windows-mcp__Snapshot",
+      "mcp__windows-mcp__Screenshot",
+      "mcp__windows-mcp__Scrape",
+      "mcp__windows-mcp__Wait",
+      "mcp__windows-mcp__WaitFor",
+      "mcp__windows-mcp__DisplayInventory",
+      "mcp__windows-mcp__ControlStatus"
     ],
     "ask": [
       "mcp__atlassian__jira_create_issue",
@@ -19,11 +26,29 @@
       "mcp__atlassian__confluence_create_page",
       "mcp__atlassian__confluence_update_page",
       "Bash(git push:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "mcp__windows-mcp__App",
+      "mcp__windows-mcp__Click",
+      "mcp__windows-mcp__Type",
+      "mcp__windows-mcp__Shortcut",
+      "mcp__windows-mcp__Move",
+      "mcp__windows-mcp__Scroll",
+      "mcp__windows-mcp__MultiSelect",
+      "mcp__windows-mcp__MultiEdit",
+      "mcp__windows-mcp__Clipboard",
+      "mcp__windows-mcp__FileSystem",
+      "mcp__windows-mcp__Notification",
+      "mcp__windows-mcp__PowerShell",
+      "mcp__windows-mcp__Process",
+      "mcp__windows-mcp__Registry",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_file_upload"
     ],
     "deny": [
       "Bash(git push --force:*)",
-      "Bash(git push -f:*)"
+      "Bash(git push -f:*)",
+      "Bash(git push --force-with-lease:*)",
+      "Bash(git push --force-if-includes:*)"
     ]
   }
 }

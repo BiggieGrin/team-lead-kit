@@ -12,7 +12,20 @@
     },
     "playwright": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--browser", "msedge"]
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser", "msedge",
+        "--isolated",
+        "--allowed-origins", "https://TODO-test-env-1;https://TODO-test-env-2"
+      ]
+    },
+    "windows-mcp": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--python", "3.13", "windows-mcp", "serve"],
+      "env": {
+        "ANONYMIZED_TELEMETRY": "false"
+      }
     }
   }
 }
